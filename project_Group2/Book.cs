@@ -16,5 +16,13 @@
             {
                 return $" the id of Book is:{Id} and his title :{Title} and his author{Author} ";
             }
+          public override bool Equals(object? obj)
+          {
+              if (obj is Book b)
+              {
+                  return this.Id == b.Id;
+              }
+              return false;
+          }
     }
 }
