@@ -2,10 +2,10 @@
 {
     public class Book
     {
-        private int Id;
-        private string Title;
-        private string Author;
-        private bool IsAvailable = true;
+        public  int Id;
+        public string Title;
+        public string Author;
+        public bool IsAvailable = true;
         public Book(int id, string title, string author)
             {
                 Id = id;
