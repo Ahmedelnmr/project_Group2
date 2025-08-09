@@ -41,7 +41,7 @@
               }
               if(index!=-1)
               {
-                  for(int i =(int i = index; i < BorrowedCount - 1; i++)
+                  for(int i = index; i < BorrowedCount - 1; i++)
                   {
                        BorrowedBooks[i] = BorrowedBooks[i+1] ;
                   }
