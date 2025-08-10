@@ -2,6 +2,7 @@
 {
     public class Book
     {
+        Console.writeline();
         public  int Id;
         public string Title;
         public string Author;
